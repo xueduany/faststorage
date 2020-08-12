@@ -1,7 +1,7 @@
 {
   "name": "@xueduany/faststorage",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "localStorage依赖缓存，内存读取，读写性能指数级别提升",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
