@@ -1,11 +1,17 @@
 {
-  "name": "faststorage",
+  "name": "@xueduany/faststorage",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "xueduany",
+    "email": "xueduanyang1985@163.com"
+  },
+  "repository": { "type": "git", "url": "https://github.com/xueduany/faststorage" },
+  "license": "MIT",
+  "dependencies": {
+  }
 }
