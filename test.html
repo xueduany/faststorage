@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <script src="./index.js"></script>
+        <div id="result" style="width:500px;height:200px;border:1px solid black;">
+            
+        </div>
+        <script>
+            function loadLocalStorage(){
+                document.getElementById('result').innerHTML = JSON.stringify(storage);
+            }
+        </script>
+        <button onclick="eval(this.innerText);loadLocalStorage();">storage.setItem('a',{a:1,b:2});storage.setItem('b',{a:1,b:2});</button>
+        <button onclick="eval(this.innerText);loadLocalStorage();">alert(storage.getItem('a'))</button>
+        <button onclick="eval(this.innerText);loadLocalStorage();">storage.removeItem('a')</button>
+        <button onclick="eval(this.innerText);loadLocalStorage();">storage.clear()</button>
+        
+
+    </body>
+</html>
