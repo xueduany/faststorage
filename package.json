@@ -1,6 +1,6 @@
 {
   "name": "@xueduany/faststorage",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "localStorage依赖缓存，内存读取，读写性能指数级别提升",
   "main": "index.js",
   "scripts": {

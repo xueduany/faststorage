@@ -156,6 +156,7 @@ try {
             },
         };
         store = new Storage();
+        store.update();
         global.storage = store;
         clearInterval(global["__store__heartbeat_timer__"]);
         global["__store__heartbeat_timer__"] = setInterval(
